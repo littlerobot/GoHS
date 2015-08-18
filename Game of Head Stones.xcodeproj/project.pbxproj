@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17D4FC9F1B833AD100A0EA9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D4FC9E1B833AD100A0EA9C /* AppDelegate.swift */; };
+		17D4FCA11B833AD100A0EA9C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D4FCA01B833AD100A0EA9C /* ViewController.swift */; };
+		17D4FCA41B833AD100A0EA9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17D4FCA21B833AD100A0EA9C /* Main.storyboard */; };
+		17D4FCA61B833AD100A0EA9C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17D4FCA51B833AD100A0EA9C /* Images.xcassets */; };
+		17D4FCA91B833AD100A0EA9C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17D4FCA71B833AD100A0EA9C /* LaunchScreen.xib */; };
+		17D4FCB51B833AD100A0EA9C /* Game_of_Head_StonesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D4FCB41B833AD100A0EA9C /* Game_of_Head_StonesTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17D4FCAF1B833AD100A0EA9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17D4FC911B833AD100A0EA9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17D4FC981B833AD100A0EA9C;
+			remoteInfo = "Game of Head Stones";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17D4FC991B833AD100A0EA9C /* Game of Head Stones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Game of Head Stones.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17D4FC9D1B833AD100A0EA9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17D4FC9E1B833AD100A0EA9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		17D4FCA01B833AD100A0EA9C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		17D4FCA31B833AD100A0EA9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		17D4FCA51B833AD100A0EA9C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		17D4FCA81B833AD100A0EA9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		17D4FCAE1B833AD100A0EA9C /* Game of Head StonesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Game of Head StonesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17D4FCB31B833AD100A0EA9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17D4FCB41B833AD100A0EA9C /* Game_of_Head_StonesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game_of_Head_StonesTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17D4FC961B833AD100A0EA9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17D4FCAB1B833AD100A0EA9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17D4FC901B833AD100A0EA9C = {
+			isa = PBXGroup;
+			children = (
+				17D4FC9B1B833AD100A0EA9C /* Game of Head Stones */,
+				17D4FCB11B833AD100A0EA9C /* Game of Head StonesTests */,
+				17D4FC9A1B833AD100A0EA9C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17D4FC9A1B833AD100A0EA9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17D4FC991B833AD100A0EA9C /* Game of Head Stones.app */,
+				17D4FCAE1B833AD100A0EA9C /* Game of Head StonesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17D4FC9B1B833AD100A0EA9C /* Game of Head Stones */ = {
+			isa = PBXGroup;
+			children = (
+				17D4FC9E1B833AD100A0EA9C /* AppDelegate.swift */,
+				17D4FCA01B833AD100A0EA9C /* ViewController.swift */,
+				17D4FCA21B833AD100A0EA9C /* Main.storyboard */,
+				17D4FCA51B833AD100A0EA9C /* Images.xcassets */,
+				17D4FCA71B833AD100A0EA9C /* LaunchScreen.xib */,
+				17D4FC9C1B833AD100A0EA9C /* Supporting Files */,
+			);
+			path = "Game of Head Stones";
+			sourceTree = "<group>";
+		};
+		17D4FC9C1B833AD100A0EA9C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17D4FC9D1B833AD100A0EA9C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		17D4FCB11B833AD100A0EA9C /* Game of Head StonesTests */ = {
+			isa = PBXGroup;
+			children = (
+				17D4FCB41B833AD100A0EA9C /* Game_of_Head_StonesTests.swift */,
+				17D4FCB21B833AD100A0EA9C /* Supporting Files */,
+			);
+			path = "Game of Head StonesTests";
+			sourceTree = "<group>";
+		};
+		17D4FCB21B833AD100A0EA9C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17D4FCB31B833AD100A0EA9C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17D4FC981B833AD100A0EA9C /* Game of Head Stones */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17D4FCB81B833AD100A0EA9C /* Build configuration list for PBXNativeTarget "Game of Head Stones" */;
+			buildPhases = (
+				17D4FC951B833AD100A0EA9C /* Sources */,
+				17D4FC961B833AD100A0EA9C /* Frameworks */,
+				17D4FC971B833AD100A0EA9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Game of Head Stones";
+			productName = "Game of Head Stones";
+			productReference = 17D4FC991B833AD100A0EA9C /* Game of Head Stones.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17D4FCAD1B833AD100A0EA9C /* Game of Head StonesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17D4FCBB1B833AD100A0EA9C /* Build configuration list for PBXNativeTarget "Game of Head StonesTests" */;
+			buildPhases = (
+				17D4FCAA1B833AD100A0EA9C /* Sources */,
+				17D4FCAB1B833AD100A0EA9C /* Frameworks */,
+				17D4FCAC1B833AD100A0EA9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17D4FCB01B833AD100A0EA9C /* PBXTargetDependency */,
+			);
+			name = "Game of Head StonesTests";
+			productName = "Game of Head StonesTests";
+			productReference = 17D4FCAE1B833AD100A0EA9C /* Game of Head StonesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17D4FC911B833AD100A0EA9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "little robot";
+				TargetAttributes = {
+					17D4FC981B833AD100A0EA9C = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					17D4FCAD1B833AD100A0EA9C = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 17D4FC981B833AD100A0EA9C;
+					};
+				};
+			};
+			buildConfigurationList = 17D4FC941B833AD100A0EA9C /* Build configuration list for PBXProject "Game of Head Stones" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17D4FC901B833AD100A0EA9C;
+			productRefGroup = 17D4FC9A1B833AD100A0EA9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17D4FC981B833AD100A0EA9C /* Game of Head Stones */,
+				17D4FCAD1B833AD100A0EA9C /* Game of Head StonesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17D4FC971B833AD100A0EA9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17D4FCA41B833AD100A0EA9C /* Main.storyboard in Resources */,
+				17D4FCA91B833AD100A0EA9C /* LaunchScreen.xib in Resources */,
+				17D4FCA61B833AD100A0EA9C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17D4FCAC1B833AD100A0EA9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17D4FC951B833AD100A0EA9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17D4FCA11B833AD100A0EA9C /* ViewController.swift in Sources */,
+				17D4FC9F1B833AD100A0EA9C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17D4FCAA1B833AD100A0EA9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17D4FCB51B833AD100A0EA9C /* Game_of_Head_StonesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17D4FCB01B833AD100A0EA9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17D4FC981B833AD100A0EA9C /* Game of Head Stones */;
+			targetProxy = 17D4FCAF1B833AD100A0EA9C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		17D4FCA21B833AD100A0EA9C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17D4FCA31B833AD100A0EA9C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		17D4FCA71B833AD100A0EA9C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17D4FCA81B833AD100A0EA9C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17D4FCB61B833AD100A0EA9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17D4FCB71B833AD100A0EA9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17D4FCB91B833AD100A0EA9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Game of Head Stones/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		17D4FCBA1B833AD100A0EA9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Game of Head Stones/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		17D4FCBC1B833AD100A0EA9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Game of Head StonesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Game of Head Stones.app/Game of Head Stones";
+			};
+			name = Debug;
+		};
+		17D4FCBD1B833AD100A0EA9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Game of Head StonesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Game of Head Stones.app/Game of Head Stones";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17D4FC941B833AD100A0EA9C /* Build configuration list for PBXProject "Game of Head Stones" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17D4FCB61B833AD100A0EA9C /* Debug */,
+				17D4FCB71B833AD100A0EA9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17D4FCB81B833AD100A0EA9C /* Build configuration list for PBXNativeTarget "Game of Head Stones" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17D4FCB91B833AD100A0EA9C /* Debug */,
+				17D4FCBA1B833AD100A0EA9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		17D4FCBB1B833AD100A0EA9C /* Build configuration list for PBXNativeTarget "Game of Head StonesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17D4FCBC1B833AD100A0EA9C /* Debug */,
+				17D4FCBD1B833AD100A0EA9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17D4FC911B833AD100A0EA9C /* Project object */;
+}
