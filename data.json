@@ -1,0 +1,37 @@
+{
+  "metadata": {
+    "version": 1,
+    "updated": "2015-08-18 11:29:00"
+  },
+  "deaths": [
+    {
+      "order": 1,
+      "episode": "S01E01",
+      "episode_name": "Winter is Coming",
+      "character": "Waymar Royce",
+      "killer": "White Walker",
+      "method": "Ice sword",
+      "method_category": "Blade",
+      "reason": "Unknown",
+      "location": "Haunted Forest",
+      "allegiance": [
+        "The Night's Watch",
+        "House Royce"
+      ]
+    },
+    {
+      "order": 2,
+      "episode": "S01E01",
+      "episode_name": "Winter is Coming",
+      "character": "Gared",
+      "killer": "White Walker",
+      "method": "Ice sword",
+      "method_category": "Blade",
+      "reason": "Unknown",
+      "location": "Haunted Forest",
+      "allegiance": [
+        "The Night's Watch"
+      ]
+    }
+  ]
+}
